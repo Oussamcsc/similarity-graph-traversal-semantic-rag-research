@@ -1,3 +1,20 @@
+# Semantic Similarity Graph Traversal for RAG
+
+**Research-oriented implementation exploring graph traversal algorithms for retrieval-augmented generation.**
+
+This repository investigates whether semantic similarity graphs can improve retrieval quality compared with plain vector search. It includes benchmark code, traversal algorithms, visualization assets, evaluation utilities, and a research notebook.
+
+**Key areas demonstrated:**
+- Semantic similarity graph construction
+- Query-guided and graph-guided traversal strategies
+- Retrieval benchmarking and evaluation utilities
+- Visualization of graph structure and traversal paths
+- RAG experimentation with Python notebooks and scripts
+
+> Note: this repository is a research fork/workbench. It is best presented as RAG research exploration unless/until original contributions are clearly separated in the README or commit history.
+
+---
+
 <h1 align="center">Novel Semantic Similarity Graph Traversal Algorithms for Semantic Retrieval Augmented Generation Systems</h1>
 
 ---
@@ -36,8 +53,8 @@ This `README.md` contains a concise publication of the research discovered in th
 To run the notebook, first ensure you have Python 3.12 and `ollama` installed, then run:
 
 ```commandline
-git clone https://github.com/glacier-creative-git/semantic-similarity-graph-traversal-semantic-rag-research
-cd semantic-similarity-graph-traversal-semantic-rag-research
+git clone https://github.com/Oussamcsc/similarity-graph-traversal-semantic-rag-research.git
+cd similarity-graph-traversal-semantic-rag-research
 python3.12 -m venv .venv 
 source .venv/bin/activate
 pip install -r requirements.txt
